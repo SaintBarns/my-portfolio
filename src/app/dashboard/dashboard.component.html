@@ -1,0 +1,276 @@
+<div class="over-all">
+
+  <div class="container">
+  <div class="profile-details timer-responsive">
+    <div class="profile-text">
+      <h1 class="name">I'M DOOGA MOUGH BARNABAS <br> ANGULAR DEVELOPER</h1>
+      <div class="developer">
+        I'm a frontend web developer having 3+ years of experience in bulding
+        responsive applications with excellent interactive and dynamic effects
+        that meet client needs, i'll be glad to work with you.
+      </div>
+      <div class="anchor-tags">
+        <a
+          class="a link"
+          href="https://instagram.com/moughbarnabas?igshid=YmMyMTA2M2Y="
+          ><i class="fa-brands fa-instagram"></i
+        ></a>
+        <a class="b link" href="https://www.facebook.com/dooga.moughbarnabas"
+          ><i class="fa-brands fa-facebook"></i
+        ></a>
+        <a
+          class="c link"
+          href="https://call.whatsapp.com/video/ZX7BUEkcKpDyQHzvLAlq8U"
+          ><i class="fa-brands fa-whatsapp"></i
+        ></a>
+        <a class="d link" href="https://github.com/BarnsDoogaM"
+          ><i class="fa-brands fa-github"></i
+        ></a>
+        <a class="d link" href="https://www.linkedin.com/in/mough-dooga-20bb4222a"><i class="fa-brands fa-linkedin"></i></a>
+        <div class="connect"><p>Connect with me</p></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="profile-picture timer-responsive">
+    <img class="image" src=".././assets/barns.jpg" alt="Barns" />
+    <div class="resumer">
+      <a class="router" [routerLink]="['/view']">VIEW RESUME</a>
+    </div>
+  </div>
+</div>
+
+
+<div class="timer timer-responsive">
+  <p class="hire">COUNTDOWN TO HIRE ME(proof of skills)</p>
+  <div class="countdown">
+    <div class="days">
+      <span>{{ days }}</span>
+      <span>Days</span>
+    </div>
+    <div class="days">
+      <span>{{ hours }}</span>
+      <span>Hrs</span>
+    </div>
+    <div class="days">
+      <span>{{ minutes }}</span>
+      <span>mins</span>
+    </div>
+    <div class="days">
+      <span>{{ seconds }}</span>
+      <span>sec</span>
+    </div>
+  </div>
+</div>
+
+<div class="team">
+  <div class="h1-title"><h1 class="title">Our team</h1></div>
+
+  <div class="photos">
+    <div class="joe">
+      <img
+        class="img pic"
+        src="../../assets/angular.jpg"
+        alt="Gbagba Joseph jrn. Javascript, Angular developer"
+      />
+      <div class="sub-title">
+        <h3>Gbagba Joseph jrn.</h3>
+        <h4>Javascript, Angular</h4>
+      </div>
+    </div>
+    <div class="joe">
+      <img
+        class="img mough"
+        src=".././assets/saint.jpg"
+        alt="Javascript, Angular developer"
+      />
+      <div class="sub-title">
+        <h3>Dooga Barnabas</h3>
+        <h4>Javascript, Angular</h4>
+      </div>
+    </div>
+    <div class="joe">
+      <img
+        class="img barns"
+        src=".././assets/barns.jpg"
+        alt="Javascript, Angular developer"
+      />
+      <div class="sub-title">
+        <h3>Dooga Barnabas</h3>
+        <h4>Javascript, Angular</h4>
+      </div>
+    </div>
+    <div class="joe">
+      <img class="img sakyi" src=".././assets/mean.jpg" alt="MEAN stack developer" />
+      <div class="sub-title">
+        <h3>Apenteng Joseph</h3>
+        <h4>MEAN stack</h4>
+      </div>
+    </div>
+    <div class="joe">
+      <img class="img sam" src="../../assets/ui.jpg" alt="UI/UX developer" />
+      <div class="sub-title">
+        <h3>Syki Samuel</h3>
+        <h4>UI/UX</h4>
+      </div>
+    </div>
+    <div class="joe yima">
+      <img
+        class="img solo"
+        src=".././assets/1680374741259.jpg"
+        alt="Javascript, React developer"
+      />
+      <div class="sub-title">
+        <h3>Yima Solomon</h3>
+        <h4>Javascript, React</h4>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="contact">
+  <div class="contact-info">
+    <div class="contact-extras">
+      <div class="extras-center">
+        <div class="information-display">
+          <div class="extras contact-me">contact me</div>
+          <div class="extras contact-email">
+         <span class="margin-right"><i class="fa-solid fa-envelope"></i></span ><a class="margin-right" href="barnsdooga@gmail.com">Barnsdooga@gmail.com</a>
+        </div>
+        <div class="extras contact-phone">
+
+          <span class="margin-right"><i class="fa-solid fa-phone"></i></span>+234 9162 9552 06
+        </div>
+        </div>
+        <div class="anchor-elements">
+          <div class="inner">
+            <a
+            class="a linked"
+            href="https://instagram.com/moughbarnabas?igshid=YmMyMTA2M2Y="
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+          <a class="b linked" href="https://www.facebook.com/dooga.moughbarnabas"
+            ><i class="fa-brands fa-facebook"></i
+          ></a>
+          <a
+            class="c linked"
+            href="https://call.whatsapp.com/video/ZX7BUEkcKpDyQHzvLAlq8U"
+            ><i class="fa-brands fa-whatsapp"></i
+          ></a>
+          <a class="d linked" href="https://github.com/BarnsDoogaM"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <form #productsForm="ngForm" (ngSubmit)="onProductCreate(productsForm.value)">
+      <div class="label">
+        <label for="text"></label>
+        <input
+          type="text"
+          id="text"
+          name="name" ngModel
+          placeholder="Your Name"
+        />
+
+      </div>
+
+      <div class="label">
+        <label for="email"></label>
+        <input
+          type="email"
+          id="email"
+          placeholder="Your email"
+          name="email" ngModel
+        />
+
+      </div>
+
+      <div class="label">
+        <label for="number"></label>
+        <input
+          type="number"
+          id="number"
+          placeholder="Your phone number" name="number" ngModel
+        />
+      </div>
+      <div class="label">
+        <label for="textID"></label>
+        <textarea
+
+          id="textID"
+          cols="20"
+          rows="7"
+          placeholder="Your Message" name="description" ngModel
+        ></textarea>
+
+      </div>
+      <button [disabled]="!productsForm.valid" class="submit" type="submit" value="submit">Submit</button>
+    </form>
+    <!-- <form [formGroup]="formSubmit" (ngSubmit)="onSave()">
+      <div class="label">
+        <label for="text"></label>
+        <input
+          type="text"
+          id="text"
+          placeholder="Your Name" formControlName="Name"
+        />
+        <div class="validation" *ngIf="formSubmit.get('Name')?.touched && !formSubmit.get('Name')?.valid">Please email is not valid</div>
+      </div>
+
+      <div class="label">
+        <label for="email"></label>
+        <input
+          type="email"
+          id="email"
+          placeholder="Your email" formControlName="Email"
+        />
+        <div class="validation" *ngIf="formSubmit.get('Email')?.touched && !formSubmit.get('Email')?.valid">Please email is not valid</div>
+      </div>
+
+      <div class="label">
+        <label for="number"></label>
+        <input
+          type="number"
+          id="number"
+          placeholder="Your phone number" formControlName="PhoneNumber"
+        />
+      </div>
+      <div class="label">
+        <label for="textID"></label>
+        <textarea
+          name="text"
+          id="textID"
+          cols="20"
+          rows="7"
+          placeholder="Your Message" formControlName="Description"
+        ></textarea>
+        <div class="validation" *ngIf="formSubmit.get('Description')?.touched && !formSubmit.get('Description')?.valid">Please email is not valid</div>
+      </div>
+      <button [disabled]="!formSubmit.valid" class="submit" type="submit" value="submit">Submit</button>
+    </form> -->
+  </div>
+</div>
+<div class="footer">
+  <div class="container-1">
+
+      <p class="path">
+        &#169; This websit is designed by Dooga Mough Barnabas, all right
+        reserved.
+      </p>
+    </div>
+    <P class="path"
+      >By utilizing our service we assume you are comfortable with our...
+    </P>
+    <p class="path">
+      <a [routerLink]="'/condition'">Terms and conditions</a><span class="span">and</span
+      ><a [routerLink]="'/privacy'">privacy policy</a>
+    </p>
+
+</div>
+
+
+</div>

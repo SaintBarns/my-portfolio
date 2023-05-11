@@ -1,0 +1,1221 @@
+
+.nav-icon{
+font-size: 2rem;
+
+position: absolute;
+top: 4rem;
+color: white;
+left: 70rem;
+}
+.container{
+display: flex;
+width: 100%;
+background-image: linear-gradient(to right, rgb(255, 250, 250) 400px, rgb(97, 56, 56) 600px);
+}
+.anchor-tags{
+font-size: 1rem;
+margin-top: 4rem;
+margin-left: 1rem;
+}
+.profile-picture{
+padding: 1rem;
+position: relative;
+
+}
+
+.image{
+width: 50%;
+margin-left: 10rem;
+border-radius: 16px;
+}
+
+.timer{
+width: 30%;
+position: absolute;
+top: 20rem;
+left: 29rem;
+background-color: black;
+
+}
+.profile-details{
+display: flex;
+width: 50%;
+margin-left: 3rem;
+
+}
+
+.hire{
+margin-top: 2rem;
+margin-left: 2rem;
+font-size: 1rem;
+color: white;
+}
+
+.countdown{
+display: flex;
+}
+.days{
+font-size: 1rem;
+background-color: black;
+color: white;
+padding: 1rem;
+}
+
+.team{
+background-color: rgb(226, 215, 215);
+padding: 1rem;
+}
+
+.label{
+display: flex;
+flex-direction: column;
+}
+
+.extras{
+margin: 1rem;
+color: white;
+}
+
+
+.icon-1{
+margin-right: 1rem;
+}
+.icon-2{
+margin-left: 1rem;
+margin-right: 1rem;
+}
+.icon-3{
+margin-left: 1rem;
+margin-right: 1rem;
+}
+
+.contact{
+background-color: black;
+padding: 2rem;
+
+}
+
+.extras-center{
+margin-left: 6rem;
+
+}
+.margin-right{
+margin-right: 1rem;
+color: rgb(238, 137, 137);
+}
+
+form{
+background-color: blue;
+width: 50%;
+background-color: black;
+}
+.contact-me{
+font-size: 1rem;
+text-transform: capitalize;
+}
+
+.contact-socials{
+display: flex;
+justify-content: space-between;
+}
+
+.contact-email{
+font-size: 1rem;
+
+}
+
+.contact-extras{
+width: 45%;
+}
+
+.pic{
+width: 5rem;
+height: 20rem;
+}
+
+.solo{
+width: 5rem;
+height: 21.5rem;
+}
+
+.img{
+width: 100%;
+}
+.joe{
+width: 100%;
+margin-right: 0rem;
+}
+
+.joe:last-child{
+margin: 0rem;
+}
+
+.photos{
+display: flex;
+flex-wrap: wrap;
+width: 80%;
+margin: 0 auto;
+}
+
+.title{
+font-size: 3rem;
+text-transform: uppercase;
+text-align: center;
+padding: 2rem;
+
+}
+
+input{
+width: 95%;
+color: white;
+margin: 1rem;
+padding: .5rem 1rem;
+border: 1px solid rgb(252, 251, 251);
+background-color:  rgb(77, 61, 61);
+outline: none;
+border: 1px solid rgb(77, 61, 61);
+
+}
+
+.contact-info{
+display: flex;
+margin: 0 auto;
+width: 80%;
+border: 1px solid gray;
+padding: 1rem;
+}
+
+
+.view-cv{
+margin-top: 1rem;
+display: flex;
+justify-content: space-between;
+}
+
+.cv{
+background-color: burlywood;
+border: 1px solid white;
+padding: .5rem 1rem;
+}
+
+h4{
+margin-top: -1rem;
+}
+.link{
+margin-right: 1rem;
+
+}
+
+.sub-title{
+margin-left: 5rem;
+}
+
+.link:hover{
+border-radius: 50%;
+background-color: rgb(19, 18, 18);
+color: white;
+border: 1px solid green;
+padding: .5rem;
+transform: scale(0);
+}
+
+.picture-link{
+text-decoration: none;
+}
+
+textarea{
+margin-left: 1rem;
+width: 100%;
+color: white;
+border: 1px solid rgb(77, 61, 61);
+background-color: rgba(0,0,0,.1);
+outline: none;
+background-color:  rgb(77, 61, 61);
+}
+
+.submit{
+margin-left: 1rem;
+margin-top: 1rem;
+margin-bottom: 2rem;
+padding: .5rem 1.5rem;
+background-color: rgb(77, 61, 61);
+color: white;
+border: 1px solid white;
+}
+
+.submit:hover{
+background-color: rgb(31, 18, 18);
+}
+
+
+
+.p{
+text-align: center;
+line-height: 1.5;
+}
+
+
+.developer{
+line-height: 2;
+font-size: 1rem;
+margin-top: 2rem;
+}
+
+
+.cv-downlode{
+margin-right: 1rem;
+}
+
+.name{
+font-size: 2rem;
+}
+.frontend{
+font-size: 1rem;
+margin-top: -1rem;
+}
+
+
+.container-1{
+background-color: rgb(34, 29, 29);
+}
+
+.footer{
+padding: .2rem;
+background-color: rgb(180, 67, 67);
+width: 100%;
+
+
+}
+.resumer{
+margin: 0rem auto;
+width: 20rem;
+height: 1rem;
+padding: 1rem;
+}
+.router{
+background-color: blue;
+color: whitesmoke;
+font-size: 1rem;
+text-transform: uppercase;
+text-decoration: none;
+margin-left: 5rem;
+padding: .5rem 1rem;
+margin-top: 5rem;
+animation: LeftToRight 3s 5s infinite;
+position: relative;
+
+}
+
+@keyframes LeftToRight {
+from{
+  left: 0px;
+}
+to{
+  left: 50px;
+}
+}
+
+.anchor-elements{
+display: flex;
+flex-direction: column;
+margin-left: 6rem;
+font-size: 2rem;
+line-height: 4rem;
+}
+.validation{
+color: red;
+font-size: 1rem;
+margin-left: 1rem;
+}
+
+
+/* media queries */
+
+@media screen and (min-width: 320px) {
+  .over-all{
+    width: 100%;
+    overflow: hidden;
+  }
+.container{
+display: flex;
+flex-direction: column;
+background-image: linear-gradient(to top, rgb(255, 250, 250) 400px, rgb(97, 56, 56) 600px);
+width: 100%;
+}
+textarea{
+margin-left: 1rem;
+width: 90%;
+
+}
+
+.contact-extras{
+width: 100%;
+}
+.contact{
+background-color: black;
+padding: 0rem;
+width: 100%;
+
+}
+.contact-info{
+display: flex;
+margin: 0rem 0rem;
+flex-wrap: wrap;
+width: 100%;
+border: none;
+padding: 0rem;
+line-height: .5;
+}
+
+.anchor-elements{
+display: flex;
+flex-direction: row;
+margin-left: 0rem;
+font-size: 1rem;
+line-height: 0rem;
+text-align: center;
+width: 100%;
+}
+.inner{
+  margin-left: 1.5rem;
+}
+.barns{
+height: 8rem;
+}
+form{
+background-color: blue;
+width: 100%;
+background-color: black;
+}
+.extras-center{
+  display: flex;
+margin-left: 0rem;
+flex-wrap: wrap;
+
+}
+.information-display{
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+}
+.mough{
+height: 9rem;
+}
+.solo{
+width: 9.5rem;
+height: 7rem;
+}
+.sam{
+  margin-right: 4rem;
+  width: 9rem;
+  height: 7rem;
+}
+h4{
+margin-top: -1rem;
+font-size: .8rem;
+}
+h3{
+  font-size: 1rem;
+}
+.sub-title{
+margin-left: 0rem;
+}
+.joe{
+width: 50%;
+margin-right: 0rem;
+}
+.anchor-tags{
+font-size: 1rem;
+margin-top: 1rem;
+margin-left: 1rem;
+}
+.linked{
+margin: 1rem;
+text-align: center;
+color: white;
+}
+
+.name{
+font-size: 1rem;
+width: 100%;
+color: rgb(177, 162, 162);
+text-align: center;
+}
+@keyframes LeftToRight {
+from{
+  left: 0px;
+}
+to{
+  left: 0px;
+}
+}
+.router{
+margin-left: 0rem;
+font-size: 1rem;
+}
+.resumer{
+margin: 0rem auto;
+width: 10rem;
+height: 1rem;
+padding: 1rem;
+}
+input{
+width: 83%;
+color: white;
+margin: 1rem;
+padding: .5rem 1rem;
+}
+.profile-text{
+padding: 0rem 0rem 0rem 0rem;
+width: 100%;
+}
+
+.image{
+width: 100%;
+margin-left: 0rem;
+border-radius: 16px;
+}
+.profile-details{
+display: flex;
+flex-direction: column;
+width: 100%;
+margin-left: 0rem;
+
+}
+.days{
+font-size: .7rem;
+background-color: black;
+color: white;
+padding: 0rem;
+margin: .1rem;
+}
+.hire{
+margin-top: 0rem;
+margin-left: 0rem;
+font-size: .7rem;
+color: white;
+}
+.timer{
+width: 40%;
+position: absolute;
+top: 15rem;
+left: 11rem;
+background-color: black;
+}
+.profile-picture{
+padding: 0rem;
+position: relative;
+width: 80%;
+margin-left: 2rem;
+
+}
+.image{
+width: 100%;
+margin-left: 0rem;
+border-radius: 16px;
+}
+.team{
+background-color: rgb(226, 215, 215);
+padding: 0rem;
+
+}
+.title{
+font-size: 1.5rem;
+text-transform: uppercase;
+text-align: center;
+padding: 1rem;
+
+}
+.path{
+background-color: rgb(180, 67, 67);
+  text-align: center;
+}
+.photos{
+display: flex;
+flex-wrap: wrap;
+width: 100%;
+padding: 1rem;
+}
+.pic{
+width: 10rem;
+height: 9rem;
+}
+.img{
+width: 80%;
+}
+.sakyi{
+  height: 8rem;
+}
+}
+
+
+@media screen and (min-width: 481px) {
+  .over-all{
+    width: 100%;
+    overflow: hidden;
+  }
+.container{
+display: flex;
+flex-direction: column;
+background-image: linear-gradient(to top, rgb(255, 250, 250) 400px, rgb(97, 56, 56) 600px);
+width: 100%;
+}
+textarea{
+margin-left: 1rem;
+width: 90%;
+
+}
+.sakyi{
+height: 8rem;
+}
+
+.contact-extras{
+width: 100%;
+}
+.contact{
+background-color: black;
+padding: 0rem;
+width: 100%;
+
+}
+.contact-info{
+display: flex;
+margin: 0rem 0rem;
+flex-wrap: wrap;
+width: 100%;
+border: none;
+padding: 0rem;
+line-height: .5;
+}
+
+.anchor-elements{
+display: flex;
+flex-direction: row;
+margin-left: 0rem;
+font-size: 1rem;
+line-height: 0rem;
+text-align: center;
+width: 100%;
+}
+.inner{
+  margin-left: 1.5rem;
+}
+.barns{
+height: 8rem;
+}
+form{
+background-color: blue;
+width: 100%;
+background-color: black;
+}
+.extras-center{
+  display: flex;
+margin-left: 0rem;
+flex-wrap: wrap;
+
+}
+.information-display{
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+}
+.mough{
+height: 9rem;
+}
+.solo{
+width: 9.5rem;
+height: 7rem;
+}
+.sam{
+  margin-right: 4rem;
+  width: 9rem;
+  height: 7rem;
+}
+h4{
+margin-top: -1rem;
+font-size: .8rem;
+}
+h3{
+  font-size: 1rem;
+}
+.sub-title{
+margin-left: 0rem;
+}
+.joe{
+width: 50%;
+margin-right: 0rem;
+}
+.anchor-tags{
+font-size: 1rem;
+margin-top: 1rem;
+margin-left: 1rem;
+}
+.linked{
+margin: 1rem;
+text-align: center;
+color: white;
+}
+
+.name{
+font-size: 1rem;
+width: 100%;
+color: rgb(177, 162, 162);
+text-align: center;
+}
+@keyframes LeftToRight {
+from{
+  left: 0px;
+}
+to{
+  left: 0px;
+}
+}
+.router{
+margin-left: 0rem;
+font-size: 1rem;
+}
+.resumer{
+margin: 0rem auto;
+width: 10rem;
+height: 1rem;
+padding: 1rem;
+}
+input{
+width: 84%;
+color: white;
+margin: 1rem;
+padding: .5rem 1rem;
+}
+.profile-text{
+padding: 0rem 0rem 0rem 0rem;
+width: 100%;
+}
+
+.image{
+width: 100%;
+margin-left: 0rem;
+border-radius: 16px;
+}
+.profile-details{
+display: flex;
+flex-direction: column;
+width: 100%;
+margin-left: 0rem;
+
+}
+.days{
+font-size: .7rem;
+background-color: black;
+color: white;
+padding: 0rem;
+margin: .1rem;
+}
+.hire{
+margin-top: 0rem;
+margin-left: 0rem;
+font-size: .7rem;
+color: white;
+}
+.timer{
+width: 40%;
+position: absolute;
+top: 12rem;
+left: 15rem;
+background-color: black;
+}
+.profile-picture{
+padding: 0rem;
+position: relative;
+width: 80%;
+margin-left: 2rem;
+
+}
+.image{
+width: 100%;
+margin-left: 0rem;
+border-radius: 16px;
+}
+.team{
+background-color: rgb(226, 215, 215);
+padding: 0rem;
+
+}
+.title{
+font-size: 1.5rem;
+text-transform: uppercase;
+text-align: center;
+padding: 1rem;
+
+}
+.path{
+background-color: rgb(180, 67, 67);
+  text-align: center;
+}
+.photos{
+display: flex;
+flex-wrap: wrap;
+width: 100%;
+padding: 1rem;
+}
+.pic{
+width: 10rem;
+height: 9rem;
+}
+.img{
+width: 80%;
+}
+
+}
+
+
+
+@media screen and (min-width: 768px) {
+  .over-all{
+    width: 100%;
+    overflow: hidden;
+  }
+.container{
+display: flex;
+flex-direction: column;
+background-image: linear-gradient(to top, rgb(255, 250, 250) 400px, rgb(97, 56, 56) 600px);
+width: 100%;
+}
+textarea{
+margin-left: 1rem;
+width: 90%;
+
+}
+.sakyi{
+height: 10rem;
+}
+
+.contact-extras{
+width: 100%;
+}
+.contact{
+background-color: black;
+padding: 0rem;
+width: 100%;
+
+}
+.contact-info{
+display: flex;
+margin: 0rem 0rem;
+flex-wrap: wrap;
+width: 100%;
+border: none;
+padding: 0rem;
+line-height: .5;
+}
+
+.anchor-elements{
+display: flex;
+flex-direction: row;
+margin-left: 0rem;
+font-size: 1rem;
+line-height: 0rem;
+text-align: center;
+width: 100%;
+}
+.inner{
+  margin-left: 1.5rem;
+}
+.barns{
+height: 9rem;
+}
+form{
+background-color: blue;
+width: 100%;
+background-color: black;
+}
+.extras-center{
+  display: flex;
+margin-left: 0rem;
+flex-wrap: wrap;
+
+}
+.information-display{
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+}
+.mough{
+height: 9rem;
+}
+.solo{
+width: 9.5rem;
+height: 10rem;
+}
+.sam{
+  margin-right: 4rem;
+  width: 9rem;
+  height: 10rem;
+}
+h4{
+margin-top: -1rem;
+font-size: .8rem;
+}
+h3{
+  font-size: 1rem;
+}
+.sub-title{
+margin-left: 0rem;
+}
+.joe{
+width: 33%;
+margin: 0rem;
+}
+.anchor-tags{
+font-size: 1rem;
+margin-top: 1rem;
+margin-left: 1rem;
+}
+.linked{
+margin: 1rem;
+text-align: center;
+color: white;
+}
+
+.name{
+font-size: 1rem;
+width: 100%;
+color: rgb(177, 162, 162);
+text-align: center;
+}
+@keyframes LeftToRight {
+from{
+  left: 0px;
+}
+to{
+  left: 0px;
+}
+}
+.router{
+margin-left: 0rem;
+font-size: 1rem;
+}
+.resumer{
+margin: 0rem auto;
+width: 10rem;
+height: 1rem;
+padding: 1rem;
+}
+input{
+width: 87%;
+color: white;
+margin: 1rem;
+padding: .5rem 1rem;
+}
+.profile-text{
+padding: 0rem 0rem 0rem 0rem;
+width: 100%;
+}
+
+.image{
+width: 100%;
+margin-left: 0rem;
+border-radius: 16px;
+}
+.profile-details{
+display: flex;
+flex-direction: column;
+width: 100%;
+margin-left: 0rem;
+
+}
+.days{
+font-size: .7rem;
+background-color: black;
+color: white;
+padding: 0rem;
+margin: .1rem;
+}
+.hire{
+margin-top: 0rem;
+margin-left: 0rem;
+font-size: .7rem;
+color: white;
+}
+.timer{
+width: 30%;
+position: absolute;
+top: 10rem;
+left: 20rem;
+background-color: black;
+padding: 1rem;
+}
+.profile-picture{
+padding: 0rem;
+position: relative;
+width: 80%;
+margin-left: 5rem;
+
+}
+.image{
+width: 100%;
+margin-left: 0rem;
+border-radius: 16px;
+}
+.team{
+background-color: rgb(226, 215, 215);
+padding: 2rem;
+
+}
+.title{
+font-size: 1.5rem;
+text-transform: uppercase;
+text-align: center;
+padding: 1rem;
+
+}
+.path{
+background-color: rgb(180, 67, 67);
+  text-align: center;
+}
+.photos{
+display: flex;
+flex-wrap: wrap;
+width: 100%;
+padding: 1rem;
+}
+.pic{
+width: 10rem;
+height: 9rem;
+}
+.img{
+width: 80%;
+}
+.link{
+margin-right: 1rem;
+color: white;
+}
+}
+
+
+@media screen and (min-width: 1025px) {
+  .over-all{
+    width: 100%;
+    overflow: hidden;
+  }
+.container{
+display: flex;
+flex-direction: row;
+background-image: linear-gradient(to right, rgb(255, 250, 250) 400px, rgb(97, 56, 56) 600px);
+width: 100%;
+}
+textarea{
+margin-left: 1rem;
+width: 90%;
+
+}
+.sakyi{
+height: 15rem;
+}
+
+.contact-extras{
+width: 100%;
+margin-left: 15rem;
+margin-top: 1rem;
+margin-bottom: 1rem;
+}
+.contact{
+background-color: black;
+padding: 0rem;
+width: 100%;
+
+}
+.contact-info{
+display: flex;
+margin: 0rem 0rem;
+flex-wrap: wrap;
+width: 100%;
+border: none;
+padding: 0rem;
+line-height: .5;
+}
+
+.anchor-elements{
+display: flex;
+flex-direction: row;
+margin-left: 0rem;
+font-size: 1rem;
+line-height: 0rem;
+text-align: center;
+width: 100%;
+}
+.inner{
+  margin-left: 1.5rem;
+}
+.barns{
+height: 17rem;
+}
+form{
+background-color: blue;
+width: 60%;
+background-color: black;
+margin: 0rem auto;
+}
+.extras-center{
+  display: flex;
+margin-left: 0rem;
+flex-wrap: wrap;
+
+}
+.information-display{
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+}
+.mough{
+height: 17rem;
+}
+.solo{
+width: 9.5rem;
+height: 15rem;
+}
+.sam{
+  margin-right: 4rem;
+  width: 9rem;
+  height: 15rem;
+}
+h4{
+margin-top: -1rem;
+font-size: .8rem;
+}
+h3{
+  font-size: 1rem;
+}
+.sub-title{
+margin-left: 0rem;
+}
+
+.anchor-tags{
+font-size: 1rem;
+margin-top: 1rem;
+margin-left: 1rem;
+}
+.linked{
+margin: 1rem;
+text-align: center;
+color: white;
+}
+
+.name{
+font-size: 1.2rem;
+width: 100%;
+color: rgb(0, 0, 0);
+text-align: center;
+}
+@keyframes LeftToRight {
+from{
+  left: 0px;
+}
+to{
+  left: 0px;
+}
+}
+.router{
+margin-left: 0rem;
+font-size: 1rem;
+}
+.resumer{
+margin: 0rem auto;
+width: 10rem;
+height: 1rem;
+padding: 1rem;
+}
+input{
+width: 87%;
+color: white;
+margin: 1rem;
+padding: .5rem 1rem;
+}
+.profile-text{
+padding: 0rem 0rem 0rem 0rem;
+width: 100%;
+}
+
+.image{
+width: 100%;
+margin-left: 0rem;
+border-radius: 16px;
+}
+.profile-details{
+display: flex;
+flex-direction: column;
+width: 50%;
+margin-left: 0rem;
+
+}
+.days{
+font-size: .7rem;
+background-color: black;
+color: white;
+padding: 0rem;
+margin: .1rem;
+}
+.hire{
+margin-top: 0rem;
+margin-left: 0rem;
+font-size: .7rem;
+color: white;
+}
+.timer{
+width: 20%;
+position: absolute;
+top: 13rem;
+left: 20rem;
+background-color: black;
+padding: 1rem;
+}
+.profile-picture{
+padding: 0rem;
+position: relative;
+width: 50%;
+margin-top: 1rem;
+margin-left: 0rem;
+
+
+}
+.image{
+width: 50%;
+margin-left: 0rem;
+border-radius: 16px;
+margin-left: 9rem;
+}
+.team{
+background-color: rgb(226, 215, 215);
+padding: 1rem;
+
+}
+.title{
+font-size: 1.5rem;
+text-transform: uppercase;
+text-align: center;
+padding: 1rem;
+
+}
+.path{
+background-color: rgb(180, 67, 67);
+  text-align: center;
+}
+.photos{
+display: flex;
+flex-wrap: wrap;
+width: 100%;
+padding: 1rem;
+}
+.pic{
+width: 10rem;
+height: 17rem;
+}
+.img{
+width: 95%;
+}
+.link{
+margin-right: 1rem;
+color: blue;
+}
+}
+
+
